@@ -10,4 +10,14 @@
 
 @implementation Operator
 
+- (Operator *)caculator:(int(^)(int value))calculator{
+    self.value = calculator(self.value);
+    return self;
+}
+
+- (Operator *)equal:(BOOL(^)(int value))operation{
+    self.isEquale = operation(self.value);
+    return self;
+}
+
 @end

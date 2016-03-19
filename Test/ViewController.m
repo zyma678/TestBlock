@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "CaculatorMaker.h"
 #import "Caculator.h"
+#import "Operator.h"
 
 typedef CaculatorMaker * (^Block_T)(int);
 
@@ -25,6 +26,15 @@ typedef CaculatorMaker * (^Block_T)(int);
         maker.add(1).add(2).add(3).sub(1);
     }];
     NSLog(@"%d",result);
+    
+    Operator *operator = [[Operator alloc] init];
+    BOOL isEqula = [[[operator caculator:^int(int value) {
+            value +=2;
+            return value;
+        }] equal:^BOOL(int value) {
+            return value == 2;
+        }] isEquale];
+    NSLog(@"%d",isEqula);
 }
 
 - (void)didReceiveMemoryWarning {

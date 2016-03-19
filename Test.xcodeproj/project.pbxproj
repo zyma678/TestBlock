@@ -17,6 +17,7 @@
 		F5704D861C9D5B520002AD83 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5704D851C9D5B520002AD83 /* TestUITests.m */; };
 		F5704D951C9D5BD90002AD83 /* Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = F5704D941C9D5BD90002AD83 /* Caculator.m */; };
 		F5704D981C9D5BEA0002AD83 /* CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F5704D971C9D5BEA0002AD83 /* CaculatorMaker.m */; };
+		F5704DDF1C9D86CF0002AD83 /* Operator.m in Sources */ = {isa = PBXBuildFile; fileRef = F5704DDE1C9D86CF0002AD83 /* Operator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		F5704D941C9D5BD90002AD83 /* Caculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Caculator.m; sourceTree = "<group>"; };
 		F5704D961C9D5BEA0002AD83 /* CaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculatorMaker.h; sourceTree = "<group>"; };
 		F5704D971C9D5BEA0002AD83 /* CaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaculatorMaker.m; sourceTree = "<group>"; };
+		F5704DDD1C9D86CF0002AD83 /* Operator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operator.h; sourceTree = "<group>"; };
+		F5704DDE1C9D86CF0002AD83 /* Operator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				F5704D6E1C9D5B510002AD83 /* LaunchScreen.storyboard */,
 				F5704D711C9D5B510002AD83 /* Info.plist */,
 				F5704D601C9D5B510002AD83 /* Supporting Files */,
+				F5704DDD1C9D86CF0002AD83 /* Operator.h */,
+				F5704DDE1C9D86CF0002AD83 /* Operator.m */,
 				F5704D931C9D5BD90002AD83 /* Caculator.h */,
 				F5704D941C9D5BD90002AD83 /* Caculator.m */,
 				F5704D961C9D5BEA0002AD83 /* CaculatorMaker.h */,
@@ -281,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5704D951C9D5BD90002AD83 /* Caculator.m in Sources */,
+				F5704DDF1C9D86CF0002AD83 /* Operator.m in Sources */,
 				F5704D981C9D5BEA0002AD83 /* CaculatorMaker.m in Sources */,
 				F5704D681C9D5B510002AD83 /* ViewController.m in Sources */,
 				F5704D651C9D5B510002AD83 /* AppDelegate.m in Sources */,
@@ -510,6 +516,7 @@
 				F5704D8C1C9D5B520002AD83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5704D8D1C9D5B520002AD83 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +525,7 @@
 				F5704D8F1C9D5B520002AD83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5704D901C9D5B520002AD83 /* Build configuration list for PBXNativeTarget "TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +534,7 @@
 				F5704D921C9D5B520002AD83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
