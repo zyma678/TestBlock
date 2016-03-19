@@ -22,7 +22,7 @@ typedef CaculatorMaker * (^Block_T)(int);
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     int result = [NSObject makeCaculators:^(CaculatorMaker *maker) {
-        maker.add(1).add(2).add(3);
+        maker.add(1).add(2).add(3).sub(1);
     }];
     NSLog(@"%d",result);
 }
