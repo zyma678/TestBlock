@@ -10,6 +10,7 @@
 #import "CaculatorMaker.h"
 #import "Caculator.h"
 #import "Operator.h"
+#import "UIViewController+Builder.h"
 
 typedef CaculatorMaker * (^Block_T)(int);
 
@@ -35,6 +36,13 @@ typedef CaculatorMaker * (^Block_T)(int);
             return value == 2;
         }] isEquale];
     NSLog(@"%d",isEqula);
+    
+    UIViewController *vc = [[[UIViewController initialize:^UIViewController * _Nonnull{
+        return [UIViewController new];
+    }] setPageInfo:^(UIViewController * _Nonnull viewController) {
+        
+    }] build] ;
+    NSLog(@"vc:%@",vc);
 }
 
 - (void)didReceiveMemoryWarning {
