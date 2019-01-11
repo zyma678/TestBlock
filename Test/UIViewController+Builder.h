@@ -17,8 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (ViewControllerMaker *)setPageInfo:(void(^)(UIViewController *viewController))pageInfo;
 
-- (ViewControllerMaker *)setPageInfo:(NSDictionary *)dic;
-
 - (UIViewController *)build;
 
 @end
